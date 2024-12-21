@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Park Pharmacy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://example.com/pharmacy-background.jpg') no-repeat center center/cover;
+            color: #2e7d32;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1b5e20;
+            color: white;
+            font-size: 1.8em;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 40px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            text-decoration: none;
+            color: white;
+            background-color: #43a047;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #66bb6a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2e7d32;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Jackson Park Pharmacy<br>
+        Connect With Us on Social Media
+    </header>
+
+    <div class="container">
+        <!-- Instagram -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon" class="icon">
+            <h2>Instagram</h2>
+            <p>Follow us for the latest updates and health tips.</p>
+            <a href="https://www.instagram.com" target="_blank" class="button">Visit Instagram</a>
+        </div>
+
+        <!-- Facebook -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon" class="icon">
+            <h2>Facebook</h2>
+            <p>Join our community and stay informed.</p>
+            <a href="https://www.facebook.com" target="_blank" class="button">Visit Facebook</a>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="icon">
+            <h2>WhatsApp</h2>
+            <p>Contact us for inquiries and support.</p>
+            <a href="https://wa.me/1234567890" target="_blank" class="button">Chat on WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Jackson Park Pharmacy | All Rights Reserved
+    </footer>
+</body>
+</html>
